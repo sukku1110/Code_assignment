@@ -1,0 +1,10 @@
+In order to check the traffic coming from the network  we are using pyshark for network 
+traffic monitoring since it leverages the powerful capabilities of many other libraries like winpcapy etc. 
+This method is reliable and widely used for network analysis. 
+pyshark simplifies packet capture and processing in Python, making it easier to integrate with other Python-based applications.
+
+Pre-requisites:
+1.Interface Selection: Ensure we replace 'your_network_interface' in start_network_capture() with the actual name of your network interface. 
+You can find the interface name by running pyshark.tshark.tshark.get_tshark_interfaces().
+
+2.Running pyshark to capture live packets requires administrative privileges.
